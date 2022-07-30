@@ -5,13 +5,59 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>AgeCounter</title>
+
+	<title>Age Counter</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="style.css">
+	<!-- Font -->
+	<!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 </head>
 <body>
+	<div class="box">
+		<h1 class="title">Age Counter</h1>
+		<span class="subtitle">Counts age by birthdate</span>
+
+		<div class="counter container">
+			<div class="input">
+				<p>Type or choose your birthdate.</p>
+				<label for="birthdate">Birthdate:</label>
+				<br>
+				<input type="date" id="birthdate" name="birthdate">
+			</div>
+
+			<h1 class="header">You hav lived:</h1>
+			<div class="output">
+				<div class="age_output">
+					<p class="text">years</p>
+					<h3 class="value" id="ageYears"></h3>
+			  	</div>
+			  	<div class="age_output">
+					<p class="text">months</p>
+					<h3 class="value" id="ageMonths"></h3>
+		  		</div>
+				<div class="age_output">
+					<p class="text">days</p>
+					<h3 class="value" id="ageDays"></h3>
+			  	</div>
+			  	<div class="age_output">
+					<p class="text">hours</p>
+					<h3 class="value" id="ageHours"></h3>
+		  		</div>
+				<div class="age_output">
+					<p class="text">minutes</p>
+					<h3 class="value" id="ageSeconds"></h3>
+			  	</div>
+			  	<div class="age_output">
+					<p class="text">seconds</p>
+					<h3 class="value" id="ageMiliSeconds"></h3>
+		  		</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- JavaScript -->
-	<script src="script.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
