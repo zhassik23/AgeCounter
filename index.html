@@ -10,7 +10,8 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="style.css">
 	<!-- Font -->
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+	<!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 </head>
 <body>
 	<div class="box">
@@ -25,36 +26,37 @@
 				<input type="date" id="birthdate" name="birthdate">
 			</div>
 
+			<h1 class="header">You hav lived:</h1>
 			<div class="output">
 				<div class="age_output">
 					<p class="text">years</p>
-					<h3 class="value" id="ageYears">0</h3>
+					<h3 class="value" id="ageYears"></h3>
 			  	</div>
 			  	<div class="age_output">
 					<p class="text">months</p>
-					<h3 class="value" id="ageMonths">0</h3>
+					<h3 class="value" id="ageMonths"></h3>
 		  		</div>
 				<div class="age_output">
 					<p class="text">days</p>
-					<h3 class="value" id="ageDays">0</h3>
+					<h3 class="value" id="ageDays"></h3>
 			  	</div>
 			  	<div class="age_output">
 					<p class="text">hours</p>
-					<h3 class="value" id="ageHours">0</h3>
+					<h3 class="value" id="ageHours"></h3>
 		  		</div>
 				<div class="age_output">
-					<p class="text">seconds</p>
-					<h3 class="value" id="ageSeconds">0</h3>
+					<p class="text">minutes</p>
+					<h3 class="value" id="ageSeconds"></h3>
 			  	</div>
 			  	<div class="age_output">
-					<p class="text">mili seconds</p>
-					<h3 class="value" id="ageMiliSeconds">0</h3>
+					<p class="text">seconds</p>
+					<h3 class="value" id="ageMiliSeconds"></h3>
 		  		</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- JavaScript -->
-	<script src="script.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
