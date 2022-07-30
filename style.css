@@ -1,0 +1,99 @@
+/* General */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("img/background.jpeg");
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	min-height: 100vh;
+}
+
+.box {
+	width: 768px;
+	background: rgba(85, 85, 85, 0.6);
+	backdrop-filter: blur(15px);
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.title {
+	font-size: 35px;
+	color: hsla(0, 0%, 100%, 0.85);
+	text-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
+	margin-bottom: 6px;
+}
+
+.subtitle {
+	display: block;
+	font-size: 12px;
+	color:rgb(199, 199, 199);
+	margin-bottom: 40px;
+}
+
+.title,
+.subtitle {
+	text-align: center;
+}
+
+p {
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+.input {
+	background-color:rgb(85, 85, 85);
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+
+label {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#birthdate {
+	font-size: 13px;
+	color:rgb(9, 9, 9);
+	background-color:rgb(170, 170, 170);
+	border: none;
+	padding: 7px 15px;
+}
+
+#birthdate:focus{
+	outline: none;
+	box-shadow: 0 0 10px #292929;
+}
+
+.output {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 50px 30px 20px 30px;
+}
+
+.age_output {
+	background-color: rgb(85, 85, 85);
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.text {
+	background: rgb(170, 170, 170);
+	border-radius: 10px 10px 0 0;
+	font-size: 15px;
+	padding: 10px 30px;
+}
+
+.value {
+	text-align: center;
+	padding: 10px 0 20px 0;
+	font-size: 30px;
+	transition: 500ms ease;
+}
